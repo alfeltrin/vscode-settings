@@ -1,0 +1,47 @@
+{
+    "files.exclude": {
+        "nbproject/": true
+    },
+
+    "window.zoomLevel": 0,
+    "window.title": "${rootPath}${separator}${appName}",
+
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    "workbench.sideBar.location": "left",
+    "workbench.colorTheme": "Monokai Dimmed",
+    "materialTheme.accent": "Cyan",
+    "breadcrumbs.enabled": true,
+
+    "editor.renderControlCharacters": false,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.detectIndentation": false,
+    "editor.autoIndent": true,
+    "editor.mouseWheelZoom": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "vscode_custom_css.imports": [
+        "file:///Users/alessandro/Library/Application Support/Code/User/styles.css"
+    ],
+    
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.shell.osx": "zsh",
+    "explorer.confirmDragAndDrop": true,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.defaultDateFormat": "dddd, Do MMMM YYYY, h:mm:ss a",
+    "php.validate.run": "onType",
+    "php-cs-fixer.lastDownload": 0,
+    "php-cs-fixer.executablePath": "~/.composer/vendor/bin/php-cs-fixer",
+    "php-cs-fixer.onsave": false,
+    "phpcs.standard": "PSR12",
+    "php.executablePath": "/usr/local/php5-7.2.9-20180821-074958/bin/php",
+
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 120000,
+    "files.insertFinalNewline": true
+}

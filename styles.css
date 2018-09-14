@@ -1,0 +1,9 @@
+.mtk7,
+.mtk3,
+.mtk4, /* comment */
+.mtk13,
+.mtk16 {
+	margin-left: 1px;
+	font-family: "Script12 BT";
+	font-size: 1.2em;
+}
