@@ -41,3 +41,11 @@ Installare estensione **php-cs-fixer**
 
 #### Standard utilizzato
 PSR2
+
+## ES Lint
+Installare eslint globalmente ```npm install -g eslint```
+Installare estensione **ES Lint**
+Definire le regole all'interno di ciascun progetto
+
+## CUSTOMIZE VS CODE CSS
+Installare estensione **Custom CSS and JS**
