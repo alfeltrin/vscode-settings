@@ -38,10 +38,12 @@
     "php-cs-fixer.lastDownload": 0,
     "php-cs-fixer.executablePath": "~/.composer/vendor/bin/php-cs-fixer",
     "php-cs-fixer.onsave": false,
+    "phpcs.executablePath": "/Users/alessandro/.composer/vendor/bin/phpcs",
     "phpcs.standard": "PSR12",
     "php.executablePath": "/usr/local/php5-7.2.9-20180821-074958/bin/php",
 
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 120000,
-    "files.insertFinalNewline": true
+	"files.insertFinalNewline": true,
+	"window.nativeTabs": true
 }
