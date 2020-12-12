@@ -1,0 +1,11 @@
+// Inserire in questo file i tasti di scelta rapida per eseguire l'override di quelli predefinitiauto[]
+[
+    {
+        "key": "alt+cmd+u",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "alt+cmd+l",
+        "command": "editor.action.transformToLowercase"
+    }
+]

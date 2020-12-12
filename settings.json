@@ -1,10 +1,6 @@
 {
-    "files.exclude": {
-        "nbproject/": true
-    },
-
     "window.zoomLevel": 0,
-    "window.title": "${rootPath}${separator}${appName}",
+    "window.title": "${rootName}",
 
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "none",
@@ -25,10 +21,10 @@
     "vscode_custom_css.imports": [
         "file:///Users/alessandro/Library/Application Support/Code/User/styles.css"
     ],
-    
+
     "terminal.integrated.rendererType": "dom",
     "terminal.integrated.shell.osx": "zsh",
-    "explorer.confirmDragAndDrop": true,
+    "explorer.confirmDragAndDrop": false,
     "javascript.updateImportsOnFileMove.enabled": "never",
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
@@ -41,9 +37,20 @@
     "phpcs.executablePath": "/Users/alessandro/.composer/vendor/bin/phpcs",
     "phpcs.standard": "PSR12",
     "php.executablePath": "/usr/local/php5-7.2.9-20180821-074958/bin/php",
+    "phpcs.ignorePatterns": ["*/vendor/*"],
 
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 120000,
 	"files.insertFinalNewline": true,
-	"window.nativeTabs": true
+    "window.nativeTabs": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.statusBar.visible": true,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.currentLine.format": "${author}, ${date} • ${message}",
+    "explorer.compactFolders": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 }
